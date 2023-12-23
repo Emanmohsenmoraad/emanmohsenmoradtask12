@@ -1,0 +1,19 @@
+.card {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.card-header {
+    background-color: rgb(20, 133, 238);
+    color: white;
+}
+
+input {
+    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+}
+.card-body{
+    margin-left: 40%;
+}
+

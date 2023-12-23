@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <div class="card mx-auto col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-sm-4">
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <div class="card-header">
+              <h4 class="text-center">Reactive Forms</h4>
+          </div>
+          <div class="card-body">
+  <div>
+  <label>Username</label><br>
+    <input type="text" id="name" formControlName="name">
+  </div>
+  <div>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" formControlName="email">
+  </div>
+  <div>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" formControlName="password">
+  </div>
+  <div class="card-footer">
+  <button class="btn btn-primary" type="submit">Submit</button></div></div>
+</form>
+  </div></div>
